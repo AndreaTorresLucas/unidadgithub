@@ -1,0 +1,41 @@
+h1{
+    
+	text-shadow: 2px 2px 5px black;
+	font-size: 70;
+	color: white;
+    
+}
+body{
+	background-image: url("https://d12mivgeuoigbq.cloudfront.net/magento-media/blog/2019/listening-headphones.jpg");
+	background-size: cover;
+	
+	margin:0;
+	
+}
+
+img{
+    
+    height: 150;
+   
+}
+
+footer{
+	background-color:232323 ;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	color:white;
+}
+div#pie{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap:50px;
+	padding: 20px 0px;
+}
+div#logo{
+	justify-content: center;
+	display: flex;
+}
+.cabez{
+	height: 70;
+}
