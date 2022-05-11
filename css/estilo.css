@@ -1,12 +1,14 @@
 h1{
-    font-family: 'Rock Salt';
+    font-family: 'Satisfy';
 	text-shadow: 2px 2px 5px black;
-	font-size: 55;
+	font-size: 40;
 	color: white;
+	text-align: center;
+
     
 }
 body{
-	background-image: url("https://d12mivgeuoigbq.cloudfront.net/magento-media/blog/2019/listening-headphones.jpg");
+	background-image: url('../img/vinyl-1595847.jpg');
 	background-size: cover;
 	margin:0;
 	
@@ -21,11 +23,12 @@ img{
 footer{
 	
 	width: 100%;
-	position: absolute;
 	bottom: 0;
 	color:white;
+	font-size: 13;
 	background-color:1A1A1A ;
-	opacity: 0.95;
+	
+	
 }
 div#pie{
 	display: grid;
@@ -50,14 +53,126 @@ div#logo{
 a#musiclab{
     text-decoration: none;
     color:white;
-    font-size: 30;
-    font-family: 'Rock Salt', cursive;
+    font-size: 50;
+    font-family: 'Oleo Script Swash Caps';
 	
 }
 
 div#encabezado{
-    background-color:1A1A1A ;
+	background-image: linear-gradient( 135deg, #1f1f1fa6 10%, #c2181836 100%);
+	background-color:black ;
     padding-top: 10px;
 	height: 75;
+	border-radius: 0 0 30% 30% / 50%;
+	padding: 20px;
 	
 }
+
+
+
+/*------------------------------------------------------------------------------------------*/
+
+.form-container{ font-family: 'Overpass', sans-serif; }
+.form-container .form-horizontal{
+    background: linear-gradient(to right,#202926 49%,#15201C 50%);
+    width: 250px;
+    height: 200px;
+    padding: 75px 55px;
+    margin: 0 auto;
+    border-radius: 80%;
+}
+.form-container .title{
+    color: #838585;
+    font-family: 'Teko', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 0 0 10px 0;
+}
+.form-horizontal .form-group{
+    background-color: rgba(255,255,255,0.15);
+    font-size: 0;
+    margin: 0 0 15px;
+    border: 1px solid #838585;
+    border-radius: 3px;
+}
+.form-horizontal .input-icon{
+    color: #838585;
+    font-size: 16px;
+    text-align: center;
+    line-height: 48px;
+    height: 45px;
+    width: 40px;
+    vertical-align: top;
+    display: inline-block;
+}
+.form-horizontal .form-control{
+    color: #838585;
+    background-color: transparent;
+    font-size: 14px;
+    letter-spacing: 1px;
+    width: calc(100% - 55px);
+    height: 45px;
+    padding: 2px 10px 0 0;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    display: inline-block;
+    transition: all 0.3s;
+}
+.form-horizontal .form-control:focus{
+    box-shadow: none;
+    border: none;
+}
+.form-horizontal .form-control::placeholder{
+    color: #838585;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+.form-horizontal .btn{
+    color: rgba(255,255,255,0.8);
+    background: rgba(201, 31, 31, 0.822);
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    margin: 0 0 15px 0;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    transform: translateX(30px);
+    transition: all 0.3s ease;
+}
+.form-horizontal .btn:hover,
+.form-horizontal .btn:focus{
+    color: #fff;
+    letter-spacing: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.form-horizontal .forgot-pass{
+    font-size: 12px;
+    text-align: left;
+    width: calc(100% - 125px);
+    display: inline-block;
+    vertical-align: top;
+}
+.form-horizontal .forgot-pass a{
+    color: #999;
+    transition: all 0.3s ease;
+}
+.form-horizontal .forgot-pass a:hover{
+    color: #555;
+    text-decoration: underline;
+}
+@media only screen and (max-width:379px){
+    .form-container .form-horizontal{
+        width: 100%;
+    }
+}
+
+/*------------------------------------------------------------------------------------------*/
